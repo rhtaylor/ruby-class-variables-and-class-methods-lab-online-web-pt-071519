@@ -10,7 +10,7 @@ class Song
     @@artists << @artist
     @@count += 1
   end
-  attr_accessor :artist :genre
+  attr_accessor :artist, :genre
   def name
     @name
   end
