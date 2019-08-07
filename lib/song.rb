@@ -26,7 +26,6 @@ class Song
       @@genres.each do |key|
           if new_hash[key]
             new_hash[key] += 1
-
           else
             new_hash[key] = 1
           end
@@ -38,9 +37,8 @@ class Song
     @@artists.each do |key|
       if new_hash[key]
         new_hash[key] += 1
-        binding.pry
+        
       else
-
         new_hash[key] = 1
       end
     end
