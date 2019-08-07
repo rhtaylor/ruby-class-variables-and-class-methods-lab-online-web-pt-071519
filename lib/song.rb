@@ -16,5 +16,6 @@ class Song
   end
   def self.artists
     @@artists
+    binding.pry
   end
 end
