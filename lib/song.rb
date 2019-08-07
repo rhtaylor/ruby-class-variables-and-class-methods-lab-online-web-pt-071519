@@ -30,6 +30,8 @@ class Song
           else
             new_hash[key] = 0
           end
+          
       end
+      new_hash
   end
 end
