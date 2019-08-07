@@ -28,7 +28,7 @@ class Song
             new_hash[key] += 1
 
           else
-            new_hash[key] = 0
+            new_hash[key] = 1
           end
 
       end
