@@ -33,14 +33,14 @@ class Song
         end
       new_hash
   end
-  def self.artist_count 
+  def self.artist_count
     new_hash = {}
     @@artists.each do |key|
       if new_hash[key]
-        new_hash[key] += 1 
-      else 
-        new_hahs[key] += 1 
-      end 
+        new_hash[key] += 1
+      else
+        new_hahs[key] += 1
+      end
       new_hash
     end
 end
