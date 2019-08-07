@@ -39,7 +39,7 @@ class Song
       if new_hash[key]
         new_hash[key] += 1
       else
-        new_hahs[key] += 1
+        new_hash[key] += 1
       end
     end
       new_hash
