@@ -40,7 +40,7 @@ class Song
         new_hash[key] += 1
         binding.pry
       else
-        
+
         new_hash[key] = 1
       end
     end
