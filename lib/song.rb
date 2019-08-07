@@ -13,5 +13,8 @@ class Song
   def name
     @name
   end
+  def genre
+    @genre 
+  end
 
 end
