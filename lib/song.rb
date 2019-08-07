@@ -38,8 +38,10 @@ class Song
     @@artists.each do |key|
       if new_hash[key]
         new_hash[key] += 1
+        binding.pry
       else
-        new_hash[key] += 1
+        
+        new_hash[key] = 1
       end
     end
       new_hash
