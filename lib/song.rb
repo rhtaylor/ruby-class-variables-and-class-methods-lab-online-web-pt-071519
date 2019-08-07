@@ -41,6 +41,7 @@ class Song
       else
         new_hahs[key] += 1
       end
+    end
       new_hash
     end
 end
