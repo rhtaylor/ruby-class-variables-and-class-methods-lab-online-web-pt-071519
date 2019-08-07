@@ -37,7 +37,7 @@ class Song
     @@artists.each do |key|
       if new_hash[key]
         new_hash[key] += 1
-        
+
       else
         new_hash[key] = 1
       end
