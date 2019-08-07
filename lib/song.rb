@@ -29,6 +29,7 @@ class Song
             binding.pry
           else
             new_hash[key] = 0
+          end
       end
   end
 end
