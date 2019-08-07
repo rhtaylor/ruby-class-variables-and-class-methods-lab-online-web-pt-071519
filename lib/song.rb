@@ -21,7 +21,10 @@ class Song
   def self.genres
     @@genres.uniq
   end
-  def self.genre_count
+  def self.genre_count 
       new_hash = {}
+      @@genre.each do |gen| 
+        binding.pry
+        end
   end
 end
