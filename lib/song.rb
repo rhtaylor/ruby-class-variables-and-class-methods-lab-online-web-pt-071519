@@ -16,7 +16,7 @@ class Song
     @@artists.count
   end
   def self.artists
-    @@artists
-    binding.pry
+    @@artists.uniq
+    
   end
 end
