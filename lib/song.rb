@@ -25,6 +25,6 @@ class Song
       new_hash = {}
       @@genre
         binding.pry
-        
+
   end
 end
